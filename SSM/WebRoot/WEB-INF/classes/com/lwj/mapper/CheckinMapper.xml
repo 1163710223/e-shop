@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 以下的命名空间值必须是接口的全路径 -->
+<mapper namespace="com.lwj.mapper.CheckinMapper">
+
+
+ 
+    
+<!-- id值必须是接口中的唯一方法名称 ,resultMap一定是已经配置好的id -->
+
+
+<update id="createCheckinTable" parameterType="String" >
+REPLACE INTO checkin(username,friday) VALUES(#{0},"yes")
+</update>
+
+<insert id="addCheckin">
+insert into checkin(username) values(#{0})
+</insert>
+
+
+<select id="queryCheckInByUsername"  resultType="Checkin" parameterType="String">
+select * from checkin where username like #{0}
+</select>
+
+
+
+
+
+</mapper>

@@ -1,0 +1,30 @@
+.D{
+    background-color: black;
+    position: fixed;
+    right:0px;
+    top:0px;
+    height: 620px;
+    width: 35px;
+    z-index: 10;
+}
+
+.d8{
+    position: absolute;
+    bottom: 5px;
+}
+.d7{
+    position: absolute;
+    bottom: 42px;
+}
+#p3c,#p4c,#p5c,#p6c,#p7c,#p8c{ 
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    right: 40px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+
+
+

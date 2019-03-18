@@ -1,0 +1,188 @@
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #DAE4E5;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #5e5e5e;
+    border-radius: 2px;
+}
+
+.Usertop{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 1280px;
+    background-color: white;
+}
+#usertleft{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 80px;
+
+}
+#usertright{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 900px;
+
+}
+#usertcenter{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 220px;
+    top: 35px;
+    font-family: "Agency FB";
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.Usercenter
+{
+    background-color: white;
+    position: absolute;
+    top:100px;
+    left: 0px;
+    background-color: deeppink;
+    height: 30px;
+    width: 1280px;
+}
+
+#Goodtable{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 1080px;
+    height: 400px;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+#Goodtltle{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1080px;
+    height: 30px;
+    border-bottom: solid;
+    border-bottom-width: 1px ;
+    border-bottom-color: grey;
+    background-color: lightgray;
+}
+#gtitle1{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+#gtitle2{
+    position: absolute;
+    top: 0px;
+    left: 450px;
+}
+#gtitle3{
+    position: absolute;
+    top: 0px;
+    left:750px;
+}
+#gtitle4{
+    position: absolute;
+    top: 0px;
+    left: 920px;
+}
+#Gooditems{
+    position: absolute;
+    left: 0px;
+    top:30px ;
+    width: 1080px;
+    height: 300px;
+
+    overflow-y: auto;
+
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.Gooditemwl{
+    width: 1080px;
+    height: 100px;
+}
+.Gooditem{
+    position: absolute;
+    width: 1080px;
+    height: 100px;
+}
+#goodimg{
+    width: 60px;
+    height:80px ;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#goodname{
+    width: 180px;
+    height: 20px;
+    position: absolute;
+    left:80px;
+    top: 10px;
+    font-size:smaller;
+}
+#goodsize{
+    width:100px;
+    height:10px ;
+    font-size:smaller;
+    position: absolute;
+    left: 80px;
+    top: 60px;
+}
+.goodprice{
+    width:100px;
+    height:10px ;
+    position: absolute;
+    left: 440px;
+    top: 40px;
+}
+#goodnum{
+    width:100px;
+    height:10px ;
+    position: absolute;
+    left: 760px;
+    top: 40px;
+}
+.goodzj{
+    width:100px;
+    height:10px ;
+    position: absolute;
+    left: 900px;
+    top: 40px;
+}
+#jiesuan{
+    border-top: ridge;
+    border-top-width: 1px;
+    border-top-color: grey;
+    width: 1080px;
+    height:40px ;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#jsan{
+    position:absolute;
+    left: 940px;
+    top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: hotpink;
+    font-size: larger;
+    font-family: "Arial Black";
+    color: white;
+    border-radius: 2px;
+    cursor:pointer;
+}

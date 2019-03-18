@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 以下的命名空间值必须是接口的全路径 -->
+<mapper namespace="com.lwj.mapper.CartMapper">
+
+
+ 
+    
+<!-- id值必须是接口中的唯一方法名称 ,resultMap一定是已经配置好的id -->
+<insert id="addToCart">
+insert into cart(username,id) values(#{0},#{1})
+</insert>
+
+
+<select id="queryByUsernameInCart"  resultType="goodInfo">
+select * from goodinfo,cart where goodinfo.id like cart.id and cart.username like #{0}
+</select>
+<select id="queryOrderByUsername"  resultType="goodInfo">
+select * from goodinfo,userorder where goodinfo.id like userorder.id and userorder.username like #{0}
+</select>
+
+<select id="queryNum"  resultType="Integer">
+select num from cart where cart.username like #{0} and cart.id like #{1}
+</select>
+
+
+<select id="queryGoodByIdInCart"  resultType="goodInfo">
+select * from goodinfo where id like #{0}
+</select>
+<delete id="clearCart" >
+delete from cart where id in 
+<foreach collection="array" open="(" separator="," close=")" item="ids" >
+#{ids} 
+</foreach>
+</delete>
+
+
+
+
+
+<insert id="addToOrder">
+insert into userorder(username,id) values(#{0},#{1})
+
+</insert>
+
+
+
+</mapper>

@@ -1,0 +1,38 @@
+
+
+.items-show{
+	
+	margin:120px auto;
+    width: 1302px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.items-show .item{
+    width: 325px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items-show .item:hover{
+    box-shadow: 0 0 2px #bbb;
+}
+.items-show .item .imgs{
+    width: 300px;
+    height: 400px;
+}
+.items-show .item .price{
+    width: 300px;
+    height: 40px;
+}
+.items-show .item .price .price_now{
+    position: relative;
+    left: 10px;
+}
+.items-show .item .price .maimaimai{
+    border:solid 1px #ff08e7;
+    position: relative;
+    left: 120px;
+    text-decoration: none;
+}

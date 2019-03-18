@@ -1,0 +1,313 @@
+.bodyimg{
+
+    background-color:ghostwhite;
+    z-index: -1;
+}
+/*顶部*/
+.Usertop{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 1280px;
+    background-color: white;
+}
+#usertleft{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 80px;
+
+}
+#usertright{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 900px;
+
+}
+
+/*中部*/
+.Usercenter
+{
+    background-color: white;
+    position: absolute;
+    top:100px;
+    left: 0px;
+    background-color: deeppink;
+    height: 30px;
+    width: 1280px;
+}
+/*左下部*/
+.Userleft{
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    height: 440px;
+    width: 110px;
+    border:solid;
+    border-width: 1px;
+    border-color: lightgray;
+
+}
+#lefttopl{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 100px;
+    height: 120px;
+    border-bottom-style: dashed;
+    border-bottom-color: lightgrey;
+    border-width: 0.8px;
+}
+#leftcenterl{
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    width: 100px;
+    height: 200px;
+    border-bottom-style: dashed;
+    border-bottom-color: lightgrey;
+    border-width: 0.5px;
+}
+#leftbottoml{
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    width: 110px;
+    height: 140px;
+
+}
+.uleftname1{
+
+    font-weight: 700;
+    width: 100px;
+    height: 50px;
+}
+.uleftname2{
+    font-size: smaller;
+    font-weight: 200;
+    height: 25px;
+}
+/*右下部*/
+/*总页面*/
+.Userright{
+    background-color: white;
+    position: absolute;
+    left: 220px;
+    top: 150px;
+    width:800px ;
+    height: 300px;
+
+    border-color:lightgrey;
+   border: groove;
+    border-width: 2px;
+}
+#urleft{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 140px;
+    width: 500px;
+    border-right: solid;
+    border-color: silver;
+    border-width: 1px;
+}
+#urlimg {
+    position: absolute;
+    left: 10px;
+    top:0px;
+    width:100px ;
+    height: 100px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%
+}
+#urlzh{
+   position: absolute;
+    top: 10px;
+    left: 120px;
+    height: 30px;
+    font-size: larger;
+    font-weight: 700;
+}
+#urlzl{
+    position: absolute;
+    top:45px;
+    left: 120px;
+    height: 30px;
+}
+#urlaq{
+    position: absolute;
+    top: 75px;
+    left: 120px;
+    height: 30px;
+}
+#urright{
+    position: absolute;
+    top: 15px;
+    left: 520px;
+    height: 140px;
+}
+#urbottom{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 780px;
+    height: 120px;
+    background-color: aliceblue;
+    font-weight: 400;
+    font-size: smaller;
+
+}
+.urbl{
+    width: 240px;
+    height: 90px;
+}
+#urbl1{
+    position: absolute;
+    top: 15px;
+    border-right: dashed;
+    border-right-width: 1px;
+    border-color: cadetblue;
+}
+#urbl2{
+    position: absolute;
+    top: 15px;
+    left: 260px;
+    border-right: dashed;
+    border-right-width: 1px;
+    border-right-color: cadetblue;
+}
+#urbl3{
+    position: absolute;
+    top: 15px;
+    left: 520px;
+}
+/*订单界面*/
+.ordertop{
+    position:absolute ;
+    top: 150px;
+    left:230px ;
+    width:900px ;
+    height: 30px;
+    border-bottom: ridge;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+}
+.itemorders{
+    position: absolute;
+    top: 200px;
+    left: 230px;
+    width: 900px;
+    height:220px;
+
+
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+
+}
+.itemorderwl{
+    width: 900px;
+    height: inherit;
+}
+.owl1{
+    width: 900px;
+    height: 30px;
+}
+.owl2{
+    width: 900px;
+    height: 100px;
+    border: solid;
+    border-color: grey;
+    border-width: 0.5px;
+
+}
+.ordertitle{
+    width: 900px;
+    height: 30px;
+    position: absolute;
+
+    border: solid;
+    border-color: grey;
+    border-width: 0.5px;
+    background-color: lightgrey;
+}
+.orderh{
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.ordernum{
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
+.orderzj{
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+.itemorder{
+    left: 0px;
+    top: 0px;
+    width:900px ;
+    height: inherit;
+
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.odgood{
+    width: 900px;
+    height: 100px;
+    position: absolute;
+
+
+}
+.oitemimg{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 70px;
+    height: 90px;
+}
+.oitemname{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+.oitemsize{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+.oitemprice{
+    position: absolute;
+    left: 500px;
+    top: 30px;
+    width:50px ;
+    height: 30px;
+}
+/*资料界面*/
+#zltop{
+    width: 900px;
+    height: 30px;
+}
+#zlcenter{
+
+}
+#zlbottom{
+
+}

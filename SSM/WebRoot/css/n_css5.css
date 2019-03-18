@@ -1,0 +1,38 @@
+﻿.allpayment{
+    margin: 10px auto;
+    height: 600px;
+    width: 800px;
+    box-shadow: 0 0 8px #aba3ab;
+    display: flex;
+    flex-direction: column;
+}
+.goodsinfo{
+    height: 300px;
+    width: 800px;
+    box-shadow: 0 0 8px #aba3ab;
+    display: flex;
+    justify-content: flex-start;
+}
+.goodsinfo .infos{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.goodsinfo .infos .iprice{
+
+    font-size: xx-large;
+    color: #ff0db4;
+}
+
+.goodsinfo .infos .igoodsno{
+    position: absolute;
+    top: 270px;
+    font-size: medium;
+}
+.allpayment .querenzhifu{
+    position: absolute;
+    top: 500px;
+    left:800px;
+}

@@ -1,0 +1,91 @@
+.main{
+    display: flex;
+    width:1300px;
+    height: 2000px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.main .n_ch{
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+.main .it{
+    width: 630px;
+    height: 350px;
+    box-shadow: 0 0 8px #222222;
+}
+.main .it .up{
+    display: none;
+    position: absolute;
+    width: 630px;
+    height: 350px;
+}
+.main .it .up .up_nr{
+    position: absolute;
+    top: 20px;
+    left: 65px;
+    width: 500px;
+    height: 310px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.main .it .up .up_nr .img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .it .up .up_nr .img img{
+    height: 175px;
+    width: 130px;
+}
+.main .it .up .up_nr .img .pay{
+    text-decoration: none;
+}
+.main .it .up .rukou{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    font-size: larger;
+    font-weight: 700;
+    font-size: x-large;
+    color: palevioletred;
+}
+
+.main .it .bt {
+    position: absolute;
+    width: 630px;
+    height: 350px;
+    z-index: 1;
+}
+.main .it .bt .imgb{
+    width: 630px;
+    height: 350px;
+}
+.main .it .bt .shangbiao{
+    height:40px; width:80px;
+}
+.main .it .bt .info{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 165px;
+    top: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .it .bt .title{
+    text-decoration: none;
+    color: #393939;
+    font-weight: 800;
+}
+

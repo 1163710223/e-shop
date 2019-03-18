@@ -1,0 +1,347 @@
+
+
+/*悬着框*//*滚轮样式*/
+::-webkit-scrollbar {
+    width: 5px;
+}/* 滚动条整体宽度 */
+::-webkit-scrollbar-track{
+    background-color: #DAE4E5;
+}/* 滚动条的滑轨背景颜色 */
+::-webkit-scrollbar-thumb{
+    background-color: #5e5e5e;
+    border-radius: 2px;
+}
+
+#D-lan{
+    background-color:whitesmoke;
+    position: fixed;
+    right:0px;
+    top:0px;
+    width: 28px;
+    height:620px;
+    z-index:10;
+}
+
+
+.rali8{
+    position: absolute;
+    bottom: 0px;
+}
+.rail7{
+    position: absolute;
+    top: 330px;
+}
+.rail1{
+    position: absolute;
+    top: 150px;
+}
+.rail2{
+    position: absolute;
+    top: 180px;
+}
+.rail3{
+    position: absolute;
+    top: 210px;
+}
+.rail4{
+    position: absolute;
+    top: 240px;
+}
+.rail5{
+    position: absolute;
+    top: 270px;
+}
+.rail6{
+    position: absolute;
+    top: 300px;
+}
+/*各个选项*/
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8{
+    width: 28px;
+    height: 28px;
+}
+/*选项解释条*/
+
+  #p4c,#p5c,#p6c,#p7c,#p8c,#p3c{
+  position: absolute;
+    border-style: solid;
+    border-color: whitesmoke;
+    right: 28px;
+    border-top-left-radius:1px;
+    border-bottom-left-radius:1px;
+    width:80px;
+    height: 28px;
+}
+/*按钮弹出界面*/
+
+.panel{
+    width: 200px;
+    position: absolute;
+    right: 28px;
+    top: 0px;
+	height:inherit;
+    background-color: white;
+
+}
+/*弹出界面标题*/
+.shop-c{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 160px;
+    height: 30px;
+    border-bottom-style:inset;
+    border-bottom-width: 1px;
+
+}
+
+/*关闭按钮*/
+.shop-but{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 15px;
+    height: 15px;
+    background-color:white;
+}
+/*蒙布*/
+
+#out-panel1{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 28px;
+    height: 620px;
+    background-color: whitesmoke;
+    }
+#out-panel2{
+     position: absolute;
+     right: 228px;
+     top:0px;
+     width: 1052px;
+     height: 620px;
+     background-color: whitesmoke;
+ }
+ .outpanel{
+     z-index: 10;
+     opacity: 0.5;
+ }
+
+
+
+
+
+/*收藏商品*/
+/*商品框*/
+
+.shop-k{
+    width: 200px;
+    height: 590px;
+    position: absolute;
+    top: 35px;
+
+    overflow-y: auto;
+
+   flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    }
+
+.item-wl{
+    width: 180px;
+    height: 80px;
+}
+.item-l{
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+.item-img{
+    position: absolute;
+    left: 5px;
+    top:5px;
+    width: 45px;
+    height: 60px;
+}
+.item-name{
+    position: absolute;
+    height: 18px;
+    left: 60px;
+    top:2px;
+    font-size:12px;
+
+}
+.item-price{
+    position: absolute;
+    height: 18px;
+    left: 60px;
+    top:20px;
+    font-size:15px;
+    color: hotpink;
+    font-family:Dialog;
+}
+.item-size{
+    width: 18px;
+    position: absolute;
+    left: 60px;
+    bottom: 5px;
+    font-size:14px;
+    color: grey;
+}
+/*商品链接字体*/
+.item-name a:link{
+    color:black;
+    text-decoration:none;
+}
+.item-name a:hover {
+    color:red;
+    text-decoration:none;
+}
+
+/*商品换页按钮*/
+
+
+
+
+/*品牌收藏*/
+.brand-k{
+    position: absolute;
+    top:40px;
+    left: 0px;
+    width: 200px;
+    background: white;
+
+    overflow-y: auto;
+
+    flex-wrap:wrap;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.brand-wl{
+    width: 200px;
+    height:180px;
+
+}
+.brand-l{
+    position: absolute;
+    width: 180px;
+    height:150px;
+    border: solid;
+    border-color: whitesmoke;
+    border-width: 50%;
+}
+.brand-img{
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 180px;
+    height: 120px;
+
+}
+.brand-name{
+    position: absolute;
+    left: 5px;
+    top:125px;
+    background-color: white;
+    font-size:14px;
+    color: gray;
+    font-family:Dialog;
+}
+.brand-cloth{
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 180px;
+    height: 120px;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 8px;
+}
+.brand-cloth-exp{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 90px;
+    height:30px;
+    background-color:red;
+    font-size:14px;
+    color:white;
+    font-family:Dialog;
+    z-index: 10px;
+    opacity: 1;
+}
+
+/*购物车框*/
+.cart-k{
+    width: 200px;
+    height: 590px;
+    position: absolute;
+    top: 35px;
+
+    overflow-y: auto;
+
+    flex-wrap:wrap;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 80px;
+    align-content: flex-start;
+}
+
+.citem-wl{
+    width: 180px;
+    height: 70px;
+}
+.citem-l{
+    position: absolute;
+    width: 180px;
+    height: 70px;
+}
+.citem-img{
+    position: absolute;
+    left: 5px;
+    top:5px;
+    width: 45px;
+    height: 60px;
+}
+.citem-name{
+    position: absolute;
+    height: 18px;
+    left: 60px;
+    top:5px;
+    font-size:12px;
+
+}
+.citem-price{
+    position: absolute;
+    height: 18px;
+    right: 10px;
+    top:5px;
+    font-size:15px;
+    color: hotpink;
+    font-family:Dialog;
+}
+.citem-size{
+    width: 18px;
+    position: absolute;
+    left: 60px;
+    bottom: 5px;
+    font-size:14px;
+    color: grey;
+}
+/*商品链接字体*/
+.citem-name a:link{
+    color:black;
+    text-decoration:none;
+}
+.citem-name a:hover {
+    color:red;
+    text-decoration:none;
+}
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 以下的命名空间值必须是接口的全路径 -->
+<mapper namespace="com.lwj.mapper.UserInfoMapper">
+
+<!-- id值必须是接口中的唯一方法名称 ,resultMap一定是已经配置好的id -->
+<select id="queryByUsername"  resultType="UserInfo" parameterType="String">
+select *  from userinfo where username like #{0}
+</select>
+<select id="queryByPhoneNum"  resultType="UserInfo" parameterType="String">
+select *  from userinfo where phoneNum like #{0}
+</select>
+
+
+<update id="updateLoginStatusByUsername" parameterType="String">
+update  userinfo SET loginStatus=1 WHERE username=#{0};
+</update>
+
+<insert id="signup">
+ insert into userinfo(username,password,phoneNum,address) values(#{0},#{1},#{2},#{3})
+</insert>
+</mapper>

@@ -1,0 +1,73 @@
+.shihao
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:180px;
+    height: 450px;
+}
+
+.fenlei a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+
+}
+.fenlei .nav1 a
+{
+    position: relative;
+    bottom:8px;
+    margin-right:10px ;
+    margin-left: 1px;
+}
+.s_gd{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+       color: #ffffff;
+}
+.fenlei a:hover{
+    font-size: 20px ;
+    font-family: STLiti;
+    padding: 5px;
+    background-color: rgb(189,16,103);
+}
+.fenlei{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(241,1,128);
+}
+
+
+.tuijian{
+    position: absolute;
+    left:0px;
+    background-image:url("../image/20160901092910_3znUw.jpg");
+    height:400px;
+    width:1200px;
+    z-index: 10;
+}
+
+
+
+.banner{width:1000px;height:380px;margin:100px auto;position:relative;overflow:hidden ;bottom: 90px}
+.banner .pic{width:9999px;height:495px}
+.banner .pic li{width:1000px;height:400px;float:left}
+.banner .anniu{width:100px;height:16px;position:absolute;left:165px;top:350px}
+.banner .anniu li{width:16px;height:16px;background:white;float:left;margin:2px;display:inline;
+    cursor:pointer;border-radius:100%}
+.banner .anniu li.on{background:red}
+.banner .lr{width:1000px;height:50px;position:absolute;top:180px;display:none}
+.banner .lr a{color:white}
+.banner .lr .pre{width:20px;height:50px;float:left;background:none repeat scroll 0px 0px rgba(1, 0, 0, 0.6);text-align:center;line-height:50px;cursor:pointer}
+.banner .lr .next{width:20px;height:50px;float:right;background:none repeat scroll 0px 0px rgba(1, 0, 0, 0.6);text-align:center;line-height:50px;cursor:pointer}
